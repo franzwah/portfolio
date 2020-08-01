@@ -115,3 +115,13 @@ nav.navbar.navbar-expand-lg.navbar-dark{
     margin: 20px 20px 50px;
 
 }
+
+/* Pricing */
+#pricing{
+    padding: 4px;
+    text-align: center;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
