@@ -9,7 +9,7 @@ body{
 }
 
 .container-fluid{
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 h1{
@@ -62,13 +62,19 @@ nav.navbar.navbar-expand-lg.navbar-dark{
 
 /* Title Image */
 .title-image{
-    width: 60%;
+    width: 40%;
     transform: rotate(20deg);
+    position: absolute;
+    right: 30%;
+    padding-top: 20px;
 }
 
 /* Features */
 #features{
     padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+
 }
 
 .feature-box {
@@ -120,6 +126,16 @@ nav.navbar.navbar-expand-lg.navbar-dark{
 #pricing{
     padding: 4px;
     text-align: center;
+}
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
 }
 
 .pricing-column{
