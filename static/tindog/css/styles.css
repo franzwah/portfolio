@@ -73,7 +73,9 @@ nav.navbar.navbar-expand-lg.navbar-dark {
 /* Title */
 
 #title {
-    
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: left;
 }
 
 #title .container-fluid {
